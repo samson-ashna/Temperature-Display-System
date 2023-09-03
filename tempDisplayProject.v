@@ -34,14 +34,14 @@ always @ (g) begin
     end
 	 
 	 else if (g == 5'b00001) begin // 1 
-			display1 = 7'b1111111;
-			display0 = 7'b1111001;	
+	 display1 = 7'b1111111;
+	 display0 = 7'b1111001;	
 			
     end
 	 
 	 else if (g == 5'b00010) begin // 2 
-			display1 = 7'b1111111;
-			display0 = 7'b0100100;
+	 display1 = 7'b1111111;
+	 display0 = 7'b0100100;
     end
 	 
 	 else if (g == 5'b00011) begin // 3 
@@ -64,12 +64,12 @@ always @ (g) begin
 	 display0 = 7'b0000010;
     end
 	 
-	 else if (g == 5'b00111) begin // 7
+	else if (g == 5'b00111) begin // 7
 	display1 = 7'b1111111;
 	display0 = 7'b0000111;
     end
 	 
-	 else if (g == 5'b01000) begin // 8
+	else if (g == 5'b01000) begin // 8
 	display1 = 7'b1111111; 
 	display0 = 7'b1000000;
     end
@@ -89,12 +89,12 @@ always @ (g) begin
 	 display0 = 7'b1111001;
     end
 	 
-	 else if (g == 5'b01100) begin // 12
+	else if (g == 5'b01100) begin // 12
 	display1 = 7'b1111001; 
 	display0 = 7'b0100100;
     end
 	 
-	 else if (g == 5'b01101) begin // 13
+	else if (g == 5'b01101) begin // 13
 	display1 = 7'b1111001; 
 	display0 = 7'b0110000;
     end
@@ -110,24 +110,24 @@ always @ (g) begin
 	 display0 = 7'b0010010;
     end
 	 
-	 else if (g == 5'b10000) begin // 16
+	else if (g == 5'b10000) begin // 16
 	display1 = 7'b1111001; 
 	display0 = 7'b0000010;
     end
 	 
-	 else if (g == 5'b10001) begin // 17
+	else if (g == 5'b10001) begin // 17
 	display1 = 7'b1111001;
-   display0 = 7'b0000111;	
+        display0 = 7'b0000111;	
     end
 	 
-	 else if (g == 5'b10010) begin // 18
+	else if (g == 5'b10010) begin // 18
 	display1 = 7'b1111001; 
 	display0 = 7'b1000000;
     end
 	 
-	 else if (g == 5'b10011) begin // 19
+	else if (g == 5'b10011) begin // 19
 	display1 = 7'b1111001;
-   display0 = 7'b1101111;	
+        display0 = 7'b1101111;	
     end
 	 
 	 else if (g == 5'b10100) begin // 20 
@@ -147,13 +147,13 @@ always @ (g) begin
     end
 	 
 	 else if (g == 5'b10111) begin // 23
-	display1 = 7'b0100100;	
-	display0 = 7'b0110000;
+	 display1 = 7'b0100100;	
+	 display0 = 7'b0110000;
     end
 	 
 	 else if (g == 5'b11000) begin // 24
-	display1 = 7'b0100100; 
-	display0 = 7'b0011001;
+	 display1 = 7'b0100100; 
+	 display0 = 7'b0011001;
     end
 	 
 	 else if (g == 5'b11001) begin // 25
@@ -163,32 +163,32 @@ always @ (g) begin
     end
 	 
 	 else if (g == 5'b11010) begin // 26
-	display1 = 7'b0100100; 
-	display0 = 7'b0000010;
+	 display1 = 7'b0100100; 
+	 display0 = 7'b0000010;
     end
 	 
 	 else if (g == 5'b11011) begin // 27
-	display1 = 7'b0100100; 
-	display0 = 7'b0000111;
+	 display1 = 7'b0100100; 
+	 display0 = 7'b0000111;
     end
 	 
 	 else if (g == 5'b11100) begin // 28
-	display1 = 7'b0100100; 
-	display0 = 7'b1000000;
+	 display1 = 7'b0100100; 
+	 display0 = 7'b1000000;
     end
 	 
 	 else if (g == 5'b11101) begin // 29
-	display1 = 7'b0100100; 
-	display0 = 7'b1101111;
+	 display1 = 7'b0100100; 
+	 display0 = 7'b1101111;
     end
 	 
 	 else if (g == 5'b11110) begin // 30
-	display1 = 7'b0110000; 
-	display0 = 7'b1000000;
+	 display1 = 7'b0110000; 
+	 display0 = 7'b1000000;
     end
 	 
 	 else if (g == 5'b11111) begin // 31
-	display1 = 7'b0110000; 
-	display0 = 7'b1111001;
+	 display1 = 7'b0110000; 
+	 display0 = 7'b1111001;
     end
 end
