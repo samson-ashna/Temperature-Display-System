@@ -6,10 +6,10 @@ An Arduino board and a DE10 board will be used to build a Temperature Display Sy
 
 ### Project Peripherals
 	DE10-Lite Board (Hardware)
-  On-Board USB-Blaster (Drawn from Computer Power Supply)
-  Quartus (Software)
-  Arduino IDE (Software)
-	Arduino Board
+ 	On-Board USB-Blaster (Drawn from Computer Power Supply)
+  	Arduino Board (Hardware)
+ 	Quartus (Software)
+ 	Arduino IDE (Software)
 	Temperature Sensor
 	I2C-Compatible Display (LCD)
 	Jumper Wires
