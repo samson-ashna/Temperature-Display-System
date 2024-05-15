@@ -1,4 +1,4 @@
-# temperature-display-system-project
+# Temperature-Display-System-project
 This repository contains the project that uses an Arduino board and a DE10 board to build a Temperature Display System.
 
 ### Project Scope
